@@ -1,1 +1,1 @@
-java -jar /test-1-0.0.1-SNAPSHOT.jar
+java -jar /elegibility-0.0.1-SNAPSHOT.jar

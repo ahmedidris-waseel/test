@@ -28,7 +28,9 @@ jobs:
       run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     
     - name: Docker Build
-      run: docker build . -t waseeldemo/demotest
+      run: docker build . -t waseeldemo/elegibility
+    - name: Docker Push
+      run: docker push waseeldemo/elegibility
       
       
       
